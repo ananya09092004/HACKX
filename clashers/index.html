@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drug Interaction Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Drug Interaction Checker</h1>
+            <p>Check if two drugs interact with each other</p>
+        </header>
+        <main>
+            <form id="interactionForm">
+                <div class="form-group">
+                    <label for="drug1">Drug 1:</label>
+                    <input type="text" id="drug1" name="drug1" placeholder="Enter the name of the first drug" required>
+                </div>
+                <div class="form-group">
+                    <label for="drug2">Drug 2:</label>
+                    <input type="text" id="drug2" name="drug2" placeholder="Enter the name of the second drug" required>
+                </div>
+                <button type="submit">Check Interaction</button>
+            </form>
+            <div id="result">
+                <!-- Interaction result will be displayed here -->
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Drug Interaction Checker. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

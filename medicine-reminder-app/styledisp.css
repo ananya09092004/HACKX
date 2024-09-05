@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: border-box;
+}
+.navbar {
+    height: 60px;
+    background-color: rgb(14, 14, 41);
+    color:azure;   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+.logo {
+    background-image: url("https://i.ibb.co/Zg0fBvZ/logo.png");
+    background-size: cover;
+    height: 100%;
+    width: 300;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid rgb(194, 193, 122);
+}
+.skrt {
+    color: gainsboro;
+    font-size: 0.8rem;
+    margin-left: 21.5px;
+}
+.vatican {
+    color: ghostwhite;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightskyblue;
+    width: 620px;
+    height: 40px;
+    border-radius: 3.69px;
+}
+.nav-search:hover{
+    border: 2px solid orchid;
+}
+.searchsec{
+    background-color: rgb(253, 143, 143);
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3.69px;  
+    border-bottom-left-radius: 3.69px;  
+    border: none;
+    font-size: 1.5rem;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchinp{
+    width: 100%;
+    border: none;
+}
+.seach-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: rgb(14, 14, 41);
+}
+button {
+    font-size: 2em;
+    padding: 20px;
+  
+    border-radius: 10px;
+    background: lightgreen;
+  
+    border: 1px solid black;
+  
+    /*  Set a shadow below */
+    box-shadow: 0 8px #bbb;
+}
+  
+button:active {
+    box-shadow: 0 3px #999;
+    transform: translateY(5px);
+}
+  
+button:hover {
+    background-color: #55ee33;
+    cursor: pointer;
+}

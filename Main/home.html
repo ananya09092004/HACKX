@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href="homestyle.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="namelogo"></div>
+            </div>
+            <div class="nav-address border">
+                <div class="add-icon">
+                    <div class="actuallogo"></div>
+                </div>
+            </div>
+            <div class="logout-buttonhome">
+                <button id="logout-button" class="logout-button jump">Logout</button>
+                <script>
+                    document.getElementById('logout-button').addEventListener('click', () => {
+                        localStorage.removeItem('loggedIn');
+                        window.location.href = 'index.html';});
+                </script>
+            </div>
+        </div>
+    </header>
+    <pre class="welcome">
+        <h1 class="h1text">Welcome to the site!</h1><br>
+        This is the official website which provides the innovative platform to address a critical issue in healthcare related to drug interactions.
+        It also addresses critical issue by providing timely medication reminder.
+    </pre>
+    <div class="diconbun">
+        <div class="medicine">
+            <p class="remindertext">MEDICINE REMINDER APPLICATION <br><br><a href="medicine-reminder-app\med.html">
+                <button class="medbutton">Reminder</button>
+            </a></p>
+        </div>
+        <div class="vl"></div>
+        <div class="medicine">
+            <p class="clashertext">MEDICINE INTERFERENCE CLASHERS <br><br>
+                <a href="clashers\index.html">
+                <button class="clashbut">Clasher</button>
+            </a></p></div>
+    </div>
+</body>
+</html>
