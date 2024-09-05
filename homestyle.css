@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-image: linear-gradient( 114.2deg,  rgba(121,194,243,1) 22.6%, rgba(255,180,239,1) 67.7% );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+}
+
+.navbar {
+    height: 90px;
+    background-color: rgb(14, 14, 41);
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.namelogo {
+    background-image: url("https://i.ibb.co/R9rtH06/Screenshot-2024-09-05-215200.png");
+    background-size: cover;
+    height: 70px;
+    width: 100px;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid rgb(194, 193, 122);
+}
+
+.nav-address {
+    display: flex;
+    align-items: center;
+}
+
+.actuallogo {
+    background-image: url(https://i.ibb.co/bWk0vpt/Whats-App-Image-2024-09-05-at-20-12-31-6f20dd0c.jpg);
+    background-size: cover;
+    height: 70px;
+    width: 100px;
+}
+
+.logout-buttonhome {
+    display: flex;
+    align-items: center;
+}
+
+.logout-button {
+    font-size: 22px;
+    padding: 18px 40px;
+    background-image: linear-gradient(90deg, #2AFADF 20%, #4C83FF 100%);
+    color: rgb(1, 4, 63);
+    border-radius: 100px;
+    box-shadow: 0 1px 10px rgb(108, 40, 167);
+    transition: box-shadow 0.25ms;
+}
+
+.logout-button:active {
+    background: palevioletred;
+    box-shadow: rgb(30, 255, 0);
+}
+
+.jump {
+    border: 2px solid transparent;
+}
+
+.jump:hover {
+    border: 1.5px solid rgb(194, 193, 122);
+}
+
+.welcome {
+    text-align: center;
+    margin: 20px;
+    padding: 0 10%;
+}
+.h1text{
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.diconbun {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 10%;
+}
+
+.medicine {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.remindertext, .clashertext {
+    margin-bottom: 30px; /* Increased space between text and button */
+}
+
+.medbutton, .clashbut {
+    font-size: 2em;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0 8px #bbb;
+    cursor: pointer;
+    outline: none;
+    transition: background-image 300ms ease, box-shadow 300ms ease, transform 300ms ease;
+}
+
+.medbutton {
+    background-color: rgb(126, 215, 248);
+}
+
+.medbutton:active {
+    box-shadow: 0 3px #999;
+    transform: translateY(5px);
+}
+
+/* .medbutton:hover {
+    background-image: linear-gradient( 109.6deg,  rgb(102, 240, 237) 11.2%, rgb(85, 157, 245) 91.1% );
+    transition: 10ms;
+    cursor: pointer;
+} */
+
+.clashbut {
+    background-color: #ffb4ec;
+}
+
+.clashbut:active {
+    box-shadow: 0 3px #999;
+    transform: translateY(5px);
+}
+
+/* .clashbut:hover {
+    background-image: radial-gradient( circle farthest-corner at -5.1% 58.6%,  rgba(227,208,118,1) 0%, rgba(239,121,121,1) 100.7% );
+    cursor: pointer;
+} */
+
+.vl {
+    width: 2px;
+    height: 60vh; /* Longer divider */
+    background-color: #000000;
+    margin: 0 20px; /* Space on either side of the divider */
+}
